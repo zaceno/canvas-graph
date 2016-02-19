@@ -1,0 +1,20 @@
+{
+  "name": "canvas-graph",
+  "version": "1.0.0",
+  "description": "tool for drawing graphs and plotting data in html5 canvas",
+  "main": "graph.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaceno/canvas-graph.git"
+  },
+  "author": "Zacharias Enochsson",
+  "dependencies":  {
+    "canvas-rect": "zaceno/canvas-rect"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaceno/canvas-graph/issues"
+  },
+  "homepage": "https://github.com/zaceno/canvas-graph#readme"
+}
