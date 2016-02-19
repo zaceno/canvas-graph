@@ -10,7 +10,7 @@
   },
   "author": "Zacharias Enochsson",
   "dependencies":  {
-    "canvas-rect": "zaceno/canvas-rect"
+    "canvas-rect": "zaceno/canvas-rect#c64645e"
   },
   "license": "ISC",
   "bugs": {
