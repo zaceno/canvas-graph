@@ -1,4 +1,4 @@
-var Rect = require('./rect.js');
+var Rect = require('canvas-rect');
 
 var copyProps = function (target, source, overrides) {
     var key, val;
