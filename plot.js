@@ -42,5 +42,14 @@ module.exports = {
                ctx.fill();
            });
         });
-    }
+    },
+    bars: function (rect, data, width, offset) {
+      width = width || 1;
+      offset = width/2 - (offset || 0);
+      data.forEach(function (p) {
+        rect.mapDrawing(function (ctx) {
+          ctx.fillRect(p[0]-offset, 0, width, p[1]);
+        });
+      })
+    },
 }
